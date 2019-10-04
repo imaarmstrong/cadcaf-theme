@@ -2,9 +2,9 @@
 /* Template Name: Events/Activities */
 get_header(); ?>
 
-<div class="single-event__head" style="background-image:url('<?php echo the_post_thumbnail(); ?>'); ">
+<div class="single-event__head" style="background-image:url('<?php echo get_the_post_thumbnail_url(); ?>'); ">
     <div class="single-event__head-content">
-        <h1 class="single-event__heading"><?php echo post_type_archive_title(); ?></h1>
+        <h1 class="single-event__heading"><?php echo the_title(); ?></h1>
     </div>
 </div>
 
