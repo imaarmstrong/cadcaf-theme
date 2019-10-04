@@ -7,7 +7,6 @@
  * @since Business-A 1.1
  */
 get_header();
-business_a_breadcrumbs();
 ?>
 	<section class="rdn-main-content">
 		<div class="container">

@@ -1,6 +1,6 @@
 .page-footer-wrapper {
 	background-color: $primary;
-	color: $white;
+	color: $white;	
 }
 
 .page-footer {
@@ -21,11 +21,21 @@
 
 .registration_numbers {
 	font-size: 80%;
-	display: flex;
+	display: block;
 	margin: 3rem 0;
+
+	@media only screen and (min-width : 576px) {
+			display: flex;
+	}
 
 	dd, dt {
 		margin: 0;
+		display: block;
+		text-align: center;
+		@media only screen and (min-width : 576px) {
+			display: flex;
+			text-align: left;
+		}
 	}
 	dt {
 		margin-right: 10px;
@@ -33,9 +43,7 @@
 	dd {
 		margin-right: 20px;
 	}
-	a {
-		color: $white !important;
-	}
+
 }
 
 .footer-menu {
