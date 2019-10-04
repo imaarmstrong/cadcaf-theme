@@ -1,0 +1,135 @@
+#rdn-wrapper {
+  box-shadow: none;
+}
+
+#rdn-top-header {
+  padding: 1.5rem 0;
+}
+
+#rdn-menu {
+  padding: 3rem 0;
+}
+
+.entry-header {
+  text-align: center;
+}
+
+.navbar-nav > li {
+  margin-right: 10px;
+  border-bottom: 2px solid #ffffff;
+  padding: 0 !important;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav > li {
+    text-align: left;
+  }
+}
+
+.navbar-nav > li > a {
+  background-color: #8200D5;
+  color: #ffffff;
+  padding: 10px 15px !important;
+  border-radius: 12px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #8200D5 !important;
+}
+
+.hero-header {
+  font-size: 5rem;
+  color: #8200D5;
+}
+
+.page-footer-wrapper {
+  background-color: #8200D5;
+  color: #ffffff;
+}
+
+.page-footer {
+  padding: 3rem 0;
+}
+
+.contact-details {
+  list-style: none;
+  margin: 0 0 5rem 0;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+}
+
+.registration_numbers {
+  font-size: 80%;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.registration_numbers dd,
+.registration_numbers dt {
+  margin: 0;
+}
+
+.registration_numbers dt {
+  margin-right: 10px;
+}
+
+.registration_numbers dd {
+  margin-right: 20px;
+}
+
+.custom_header {
+  position: relative;
+}
+
+.custom_header__wrapper {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .custom_header__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.custom_header__logo {
+  width: 180px;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .custom_header__logo {
+    margin-bottom: 0;
+  }
+}
+
+.custom_header__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar-toggle {
+  border: 1px solid red;
+}
+
+.navbar-toggle {
+  background-color: #8200D5 !important;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-toggle {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
