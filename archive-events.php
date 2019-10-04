@@ -4,12 +4,13 @@ get_header(); ?>
 
 <div class="single-event__head" style="background-image:url('<?php echo the_post_thumbnail(); ?>'); ">
     <div class="single-event__head-content">
-        <h1 class="single-event__heading"><?php echo post_type_archive_title(); ?></h1>
+        <h1 class="single-event__heading"><?php echo the_title (); ?></h1>
     </div>
 </div>
-
-<div class="container">
-    <?php echo the_content(); ?>
+<div class="archive-events__main-body">
+    <div class="container">
+        <?php echo the_content(); ?>
+    </div>
 </div>
 
 <div class="archive-events">
