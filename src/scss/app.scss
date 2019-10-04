@@ -1,7 +1,9 @@
-$primary: #573E92;
-$white: #FFF;
-
+$primary: #8200D5;
+$white: #ffffff;
 
 @import 'blocks/events';
-
 @import 'blocks/archive-events';
+
+@import 'overides';
+@import 'parts/footer';
+@import 'parts/header';

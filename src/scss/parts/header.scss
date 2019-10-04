@@ -1,0 +1,45 @@
+.custom_header {
+	position: relative;
+
+	&__wrapper {
+		display: block;
+
+		@media only screen and (min-width : 768px) {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	&__logo {
+		width: 180px;
+		margin-bottom: 3rem;
+
+		@media only screen and (min-width : 768px) {
+			margin-bottom: 0;
+		}
+	}
+
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.navbar-toggle {
+	border: 1px solid red;
+}
+
+.navbar-toggle {
+	background-color: $primary !important;
+
+	.icon-bar {
+		background-color: $white;
+	}
+}
+
+.navbar-toggle {
+	position: absolute !important;
+	top: 0;
+	right: 0;
+}

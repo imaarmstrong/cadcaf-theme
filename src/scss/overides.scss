@@ -1,0 +1,44 @@
+#rdn-wrapper {
+	box-shadow: none;
+}
+#rdn-top-header {
+	padding: 1.5rem 0;
+}
+#rdn-menu {
+	padding: 3rem 0;	
+}
+
+.entry-header {
+	text-align: center;
+}
+
+
+.navbar-nav > li {
+	margin-right: 10px;
+	border-bottom: 2px solid $white;
+	padding: 0 !important;
+	text-align: center;
+
+	@media only screen and (min-width : 768px) {
+		text-align: left;
+	}
+
+
+}
+.navbar-nav > li > a {
+	background-color: $primary;
+	color: $white;
+	padding: 10px 15px !important;
+	border-radius: 12px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+	background-color: $primary !important;
+}
+
+.hero-header {
+	font-size: 5rem;
+	color: $primary;
+}
