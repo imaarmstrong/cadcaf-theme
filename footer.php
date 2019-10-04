@@ -4,17 +4,26 @@
 			<div class="page-footer">
 				<ul class="contact-details">
 					<li><?php the_field('address', 'option'); ?></li>
-					<li>Phone: <?php the_field('telephone', 'option'); ?></li>
-					<li>Email: <?php the_field('email', 'option'); ?></li>
+					<li>Phone: <a href="tel:<?php the_field('telephone', 'option'); ?>"><?php the_field('telephone', 'option'); ?></a></li>
+					<li>Email: <a href="mailto:<?php the_field('email', 'option'); ?>"><?php the_field('email', 'option'); ?></a></li>
 				</ul>
 				
 
 				<dl class="registration_numbers">
 					<dt>Company Number:</dt>
 					<dd><?php the_field('company_number', 'option'); ?></dd>
-					<dt>Chairty Number:</dt>
+					<dt>Charity Number:</dt>
 					<dd><?php the_field('charity_number', 'option'); ?></dd>
 				</dl>
+
+
+				<?php 
+					wp_nav_menu( array(
+					'theme_location' => 'footer',
+					'menu_class' => 'footer-menu',
+					)); 
+				?>
+
 				 
 			</div>
 		
