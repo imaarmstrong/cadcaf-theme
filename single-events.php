@@ -29,7 +29,7 @@ $feat_image     = get_field('event_image');
                     </ul>
                     <div class="single-event__form">
                         <h2 class="single-event__section-title"> <?php _e('Book your place', 'cadcaf-theme'); ?> <h2>
-                        <?php echo do_shortcode('[ninja_form id=2]'); ?>
+                        <?php echo do_shortcode('[ninja_form id=1]'); ?>
                     </div>
                 </div>
             </div>

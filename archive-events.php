@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+/* Template Name: Events/Activities */
+get_header(); ?>
 
 <div class="single-event__head" style="background-image:url('<?php echo $feat_image; ?>'); ">
     <div class="single-event__head-content">
