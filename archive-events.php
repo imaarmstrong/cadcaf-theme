@@ -7,9 +7,10 @@ get_header(); ?>
         <h1 class="single-event__heading"><?php echo the_title(); ?></h1>
     </div>
 </div>
-
-<div class="container">
-    <?php echo the_content(); ?>
+<div class="archive-events__main-body">
+    <div class="container">
+        <?php echo the_content(); ?>
+    </div>
 </div>
 
 <div class="archive-events">
