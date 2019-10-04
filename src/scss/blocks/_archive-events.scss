@@ -1,0 +1,48 @@
+.card-img{
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.archive-events{
+    padding: 50px 0;
+}
+
+.card-body{
+    padding: 10px 5px;
+    h4{
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+}
+
+.archive-events__details{
+    margin: 10px 0 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    img{
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.btn-primary{
+    background-color: $primary !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    letter-spacing: 1px;
+    color: $white;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($primary, 1);
+        color: $white;
+    }
+}
+
+@media(max-width: 500px){
+    .card{
+        margin-bottom: 20px;
+    }
+}

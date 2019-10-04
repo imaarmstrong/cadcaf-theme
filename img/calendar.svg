@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="calendar" fill="#573E92" fill-rule="nonzero">
+            <path d="M452,40 L428,40 L428,0 L388,0 L388,40 L124,40 L124,0 L84,0 L84,40 L60,40 C26.916,40 0,66.916 0,100 L0,452 C0,485.084 26.916,512 60,512 L452,512 C485.084,512 512,485.084 512,452 L512,100 C512,66.916 485.084,40 452,40 Z M472,452 C472,463.028 463.028,472 452,472 L60,472 C48.972,472 40,463.028 40,452 L40,188 L472,188 L472,452 Z M472,148 L40,148 L40,100 C40,88.972 48.972,80 60,80 L84,80 L84,120 L124,120 L124,80 L388,80 L388,120 L428,120 L428,80 L452,80 C463.028,80 472,88.972 472,100 L472,148 Z" id="Shape"></path>
+            <rect id="Rectangle" x="76" y="230" width="40" height="40"></rect>
+            <rect id="Rectangle" x="156" y="230" width="40" height="40"></rect>
+            <rect id="Rectangle" x="236" y="230" width="40" height="40"></rect>
+            <rect id="Rectangle" x="316" y="230" width="40" height="40"></rect>
+            <rect id="Rectangle" x="396" y="230" width="40" height="40"></rect>
+            <rect id="Rectangle" x="76" y="310" width="40" height="40"></rect>
+            <rect id="Rectangle" x="156" y="310" width="40" height="40"></rect>
+            <rect id="Rectangle" x="236" y="310" width="40" height="40"></rect>
+            <rect id="Rectangle" x="316" y="310" width="40" height="40"></rect>
+            <rect id="Rectangle" x="76" y="390" width="40" height="40"></rect>
+            <rect id="Rectangle" x="156" y="390" width="40" height="40"></rect>
+            <rect id="Rectangle" x="236" y="390" width="40" height="40"></rect>
+            <rect id="Rectangle" x="316" y="390" width="40" height="40"></rect>
+            <rect id="Rectangle" x="396" y="310" width="40" height="40"></rect>
+        </g>
+    </g>
+</svg>
